@@ -24,14 +24,17 @@
                 <form action="login.php" method="post" autocomplete="on">
                     
                     <div class="campo">
-                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail">
+                        <i class="material-icons">person </i>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
                         <label for="ilogin">Login</label>
                     </div>
                     <div class="campo">
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="new-password" required minlength="8">
                         <label for="isenha">Senha</label>
                     </div>
-
+                    <input type="submit" value="Enviar">
+                    <a href="#">Esqueci a senha <i class="material-icons">mail</i></a>
 
                 </form>
 
