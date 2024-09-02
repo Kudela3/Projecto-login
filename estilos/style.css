@@ -51,7 +51,7 @@ section#login > div#imagem{
 
 section#login > div#formulario{
     display: block;
-    padding: 10px;
+    padding: 9px;
 
 }
 
@@ -63,5 +63,9 @@ div#formulario{
 div#formulario>p {
     font-size: 0.8em;
     text-align: justify;
+}
+
+form > input[type=submit]{
+    display: block;
 }
 
